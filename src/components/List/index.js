@@ -6,7 +6,7 @@ import Card from '../Card'
 
 import { Container } from './styles'
 
-function List({ data, index: listIndex }) {
+function List({ data, index: listIndex, useDrop }) {
   return (
     <Container done={data.done}>
       <header>
